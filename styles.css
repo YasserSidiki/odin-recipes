@@ -1,8 +1,9 @@
 body {
     margin: 20px;
-    width: 600px;
     background-color: rgb(255, 208, 151);
     box-sizing: border-box;
+    font-size: 20px;
+    font-family: Garamond,serif;
 }
 
 h1{
@@ -12,7 +13,7 @@ h1{
 }
 
 .recipe-list{
-    border: 5px solid salmon;
+    border: 10px double rgb(240, 107, 92);
     width: 400px;
     padding: 15px;
     text-align: center;
@@ -24,4 +25,64 @@ h1{
     margin: 20px;
     font-size: 24px;
     padding: 5px;
+}
+
+.home {
+    font-size: 24px;
+    margin: 25px 35px;
+    display: inline-block;
+}
+
+.left{
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.float{
+    width: 1300px;
+    margin: 20px;
+}
+
+.ingredients{
+    border: 5px groove coral ;
+    padding: 20px;
+    margin: 50px 40px 50px 20px;
+}
+
+.ingredients li {
+    margin: 10px 30px;
+}
+
+.flexbox{
+    display: flex;
+    width: 1300px;
+}
+
+.flexbox  div {
+    flex: 1;
+    
+}
+
+.steps{
+    border: 5px ridge orange;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.box-steps,.box-ingredients{
+    margin-left: 50px;
+}
+
+h3{
+    font-style: italic;
+    font-size: 28px;
+}
+
+h4{
+    font-size: 24px;
+}
+
+.steps li {
+    padding: 7px
 }
